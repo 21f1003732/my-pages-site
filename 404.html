@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>404 — Lost in the Pages</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; text-align:center; padding:50px; color:#2f3b4a; }
+    .card { display:inline-block; text-align:left; padding:30px 40px; border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,0.08); max-width:720px; }
+    h1 { font-size:96px; margin:0; color:#ff6b6b; }
+    h2 { margin-top:10px; }
+    p { line-height:1.5; }
+    .actions { margin-top:20px; }
+    .home { text-decoration:none; padding:10px 16px; border-radius:8px; border:1px solid #ddd; display:inline-block; }
+    .search { margin-top:12px; display:flex; gap:8px; }
+    input[type="text"] { flex:1; padding:8px 10px; border-radius:8px; border:1px solid #ccc; }
+    button { padding:8px 12px; border-radius:8px; border:1px solid #2f3b4a; background:transparent; cursor:pointer; }
+    footer { margin-top:16px; font-size:0.9em; color:#667; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div style="display:flex;align-items:center;gap:20px;">
+      <div style="flex:0 0 130px; text-align:center;">
+        <h1>404</h1>
+      </div>
+      <div>
+        <h2>Uh-oh — we couldn’t find that page</h2>
+        <p>Looks like the link is broken or the page moved. Try one of these:</p>
+        <ul>
+          <li>Return to the homepage</li>
+          <li>Check the URL for typos</li>
+          <li>Contact me if you need help</li>
+        </ul>
+
+        <div class="actions">
+          <a class="home" href="/">← Go back home</a>
+          <a class="home" href="/">&nbsp;Browse site&nbsp;</a>
+        </div>
+
+        <div class="search" role="search" aria-label="Search the site">
+          <input type="text" placeholder="Search (try a page name) — this is just a demo">
+          <button onclick="alert('This is a demo search box — implement site search if needed')">Search</button>
+        </div>
+
+        <footer>
+          Contact: <!--email_off-->21f1003732@ds.study.iitm.ac.in<!--/email_off--><br>
+          If you think this is an error, send a quick note and I’ll help.
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
